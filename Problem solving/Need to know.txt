@@ -1,0 +1,1 @@
+1. In a string of (RGB) there are (cntR * cntG * cntB) triplet of RGB
