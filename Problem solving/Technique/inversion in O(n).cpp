@@ -1,7 +1,7 @@
 /*
 
  author : wajiul
- problem-link : 
+ problem-link : https://www.hackerrank.com/challenges/new-year-chaos/problem
 
  topic : counting inversion in O(n)
 
