@@ -1,0 +1,29 @@
+
+#container{
+    margin: auto;
+    background-color: brown;
+    width: 900px;
+    height: 600px;
+}
+
+#box{
+    margin: auto;
+    margin-top: 20px;
+    font-style: italic;
+    border: 1px solid black;
+    width: 700px;
+    background-color: antiquewhite;
+}
+
+#st{
+    margin-left: 20px;
+    text-align: left;
+    padding: 1px;
+    font-size: 20px;
+
+}
+#userinput{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 250px;
+}
