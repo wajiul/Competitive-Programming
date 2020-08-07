@@ -35,7 +35,7 @@ class Graph {
     for(auto i : g[n]) {
       if(i != p) {
         depth[i] = depth[n] + 1;
-        dfs(i , n);
+        cal_depth(i , n);
       }
     }
   }
@@ -47,4 +47,5 @@ class Graph {
   int cal(int a);
   int cal(int a,int b);
 };
+
 
