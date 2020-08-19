@@ -14,6 +14,7 @@ class Binomial {
     }
   }
   int C(int n, int r) {
+    if(r > n) return 0;
     return (fac[n] * finv[r] % Mod * finv[n - r] ) % Mod;
   }
   int P(int n, int r) {
