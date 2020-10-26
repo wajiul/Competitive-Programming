@@ -2,7 +2,7 @@
  LightOj: 1033
  Longest Pallindromic Subsequence: is LCS of a string (s) and reverse(s);
  Minimum number of insertion to Make a string to Pallindrome is equal to the Minimum number of deletion to Make LPS.
- Because for each characted we delete to make LPS , we need to add pair of those character in Insertion. 
+ Because for each character we delete to make LPS , we need to add pair of those character in Insertion. 
  
 */
 
