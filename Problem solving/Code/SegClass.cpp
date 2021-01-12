@@ -102,7 +102,7 @@ struct Segtree {
 
     void update(int v, int s, int e, int pos, int val) {
         if (s == e && s == pos) {
-            t[v] += val;
+            t[v] = val;
             return;
         }
         int mid = (s + e) >> 1;
