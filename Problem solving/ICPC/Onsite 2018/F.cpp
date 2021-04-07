@@ -90,23 +90,17 @@ void dfs(int n, int p)
   }
 }
  
-int lca(int p, int q)
-  {
-      int tmp, log, i;
-      if (L[p] < L[q])
-          tmp = p, p = q, q = tmp;
-        log=1;
-      while(1) {
-        int next=log+1;
-        if((1<<next)>L[p])break;
-        log++;
-      }
-        for (i = log; i >= 0; i--)
+int lca(int p, int q) {
+      if (L[p] < L[q]) {
+		  swap(p, q);
+	  }
+	  int len = log2(L[p]);
+        for (int i = len; i >= 0; i--)
           if (L[p] - (1 << i) >= L[q])
               p = P[p][i];
       if (p == q)
           return p;
-        for (i = log; i >= 0; i--)
+        for (int i = len; i >= 0; i--)
           if (P[p][i] != -1 && P[p][i] != P[q][i])
               p = P[p][i], q = P[q][i];
       return T[p];
