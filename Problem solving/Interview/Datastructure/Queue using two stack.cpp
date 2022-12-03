@@ -55,6 +55,7 @@ void pop() {
 	b.pop();
 }
 void solve() {
+	
 	push(4);
 	push(5);
 	cout << front() << endl;
