@@ -1,7 +1,7 @@
 /*
 Insert: O(n)
 Search: O(n)
-Delete: O(n)
+Delete: O(n * m)
 
 ***Initial root is not NULL for trie. 
 ***initially root = new Node()
